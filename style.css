@@ -148,6 +148,7 @@ nav ul li a{
 .second .right{
     background-image: url(./images/desktop/image-transform.jpg);
     background-position: center;    
+    background-size: cover;
 }
 
 .third{
@@ -160,7 +161,8 @@ nav ul li a{
 .third .left{
     width: 50%;
     background-image: url(./images/desktop/image-stand-out.jpg);
-    background-position: center;    
+    background-position: center;  
+    background-size: cover;  
 }
 .third .right{
     display: flex ;
@@ -208,11 +210,13 @@ nav ul li a{
     width: 50%;
     background-image: url(./images/desktop/image-graphic-design.jpg);
     color: var(--Dark-desaturated-cyan);
+    background-size: cover;
 }
 .forth .right{
     width: 50%;
     background-image: url(./images/desktop/image-photography.jpg);
     color: var(--Dark-blue);
+    background-size: cover;
 }
 
 .testimonials{
